@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--  -->
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../css/bootstrap-utilities.min.css">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/script.js"></script>
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+   <title>hlegals</title>
+</head>
+<body>
+	<div class="wrapper-services-details stay">
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-content">
+				 <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Ми хотіли б Вам допомогти</h5>
+					<button type="button" class="btn-close-me" data-bs-dismiss="modal" aria-label="Close"><img src="../img/modal-close.png" alt=""></button>
+				 </div>
+				 <form>
+					<div class="modal-body">
+						<input class="modal-body__text" type="text" placeholder="Iм’я">
+						<textarea class="modal-body__textarea" placeholder="Повідомлення"></textarea>
+						<p class="modal-body__subtitle">Як вам відповісти?</p>
+						<input class="modal-body__text" type="tel" placeholder="Номер телефону">
+						<input class="modal-body__text" type="email" placeholder="Чи email">
+					</div>
+					<div class="modal-footer">
+						<input type="submit"" class="submit" value="Надіслати запит">
+					</div>
+				 </form>
+			  </div>
+			</div>
+		 </div>
+		<header class="header">
+			<div class="container">
+				<div class="header__info">
+					<div class="header__language">
+						<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">УК</button>
+							</li>
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">РУ</button>
+							</li>
+							<li class="nav-item" role="presentation">
+							  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">EN</button>
+							</li>
+						 </ul>
+					</div>
+					<a class="header__address" target="_black" href="https://www.google.com/maps/place/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+3,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.435032,30.7402159,17z/data=!4m5!3m4!1s0x40c63396894457b7:0x7f6c5236cbcb70c8!8m2!3d46.436045!4d30.7401301">Одеса, Адміральський пр. 3</a>
+						 <a class="header__tel" href="tel:380503901591">+38 (050) 390 15 91</a>
+						 <a class="header__fb" href="">
+							 <img src="../img/header-fb.png" alt="">
+						 </a>
+				</div>
+				<div class="header__line flex">
+					<div class="header__logo">
+						<h1><a href="../index.html"><span>h</span>legals</a><img src="../img/slash.png" alt=""><span>послуги</span><img src="../img/slash-p.png" alt=""></h1>
+						<p>юридична компанія</p>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul>
+							<li>
+								<a href="./about-us.html">о нас</a>
+							</li>
+							<li>
+								<a href="./services.html"><span>послуги</span></a>
+							</li>
+							<li>
+								<a href="./command.html">команда</a>
+							</li>
+							<li>
+								<a href="./publications.html">публікації</a>
+							</li>
+							<li>
+								<a href="./contacts.html">контакти</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="consultation">
+			<div class="container">
+				<div class="consultation__logo">
+					<img src="../img/services__icon-one.png" alt="">
+				</div>
+				<h2 class="consultation__title title">IT та електронна комеція</h2>
+				<p class="consultation__text">Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста.</p>
+				<p class="consultation__text">До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.</p>
+				<button type="button consultation__button-one" data-bs-toggle="modal" data-bs-target="#exampleModal" class="consultation__button btn">Безкоштовна консультація</button>
+				<a href="./popap-mobile.html" class="consultation__button btn consultation__button-two">Безкоштовна консультація</a>
+			</div>
+		</section>
+		<section class="services-list">
+			<div class="services-list__wrap">
+				<div class="container">
+					<h3 class="services-list__title">Послуги цього напрямку:</h3>
+					<ul class="services-list__items">
+						<li>
+							супровід інвестиційних проектів з розвитку портової інфраструктури;
+						</li>
+						<li>
+							паспортизація ГТС, внесення інформації про них в обов'язкові бази даних і реєстри;
+						</li>
+						<li>
+							оформлення дозвільної документації для будівництва портових терміналів;
+						</li>
+						<li>
+							оформлення дозвільної та іншої обов'язкової документації, необхідної для здійснення діяльності в порту (дозвіл на викиди, висновок по ОВНС, РТК і ін.);
+						</li>
+						<li>
+							супровід процедур, пов'язаних з орендою державного майна в порту;
+						</li>
+						<li>
+							супровід процедур, пов'язаних з підтвердженням статусу портового оператора, морського агента, лінії закордонного плавання;
+						</li>
+						<li>
+							супровід процедур, пов'язаних з включенням компанії в межі порту;
+						</li>
+						<li>
+							оскарження дій, пов'язаних з незаконним нав'язуванням послуг в порту компаніями-монополістами.
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="services__shadow">
+				<div class="services__shadow-first"></div>
+				<div class="services__shadow-second">
+					<div></div>
+				</div>
+			</div>
+		</section>
+		<section class="successful-cases">
+			<div class="container">
+				<div class="successful-cases__blocks">
+					<div class="successful-cases__block successful-cases__block-one">
+						<h5 class="successful-cases__block-title">Успішні кейси</h5>
+					</div>
+					<div class="successful-cases__block successful-cases__block-two">
+						<p class="successful-cases__block-text">Підготовка комплексного юридичного висновку для європейського банку</p>
+						<a class="successful-cases__block-link"" href="#">WannaBiz</a>
+					</div>
+					<div class="successful-cases__block successful-cases__block-three">
+						<p class="successful-cases__block-text">Супровід проекту з купівлі-продажу сільськогосподарської продукції</p>
+						<a class="successful-cases__block-link"" href="#">tapgerine</a>
+					</div>
+					<div class="successful-cases__block successful-cases__block-four">
+						<p class="successful-cases__block-text">Супровід проекту з купівлі-продажу сільськогосподарської продукції</p>
+						<a class="successful-cases__block-link"" href="#">Hillel IT School</a>
+					</div>
+				</div>
+				<div class="successful-cases__blocks-two">
+					<div class="successful-cases__block successful-cases__block-five">
+						<p class="successful-cases__block-text">Представництво інтересів великого зернотрейдера в податковому спорі</p>
+						<a class="successful-cases__block-link"" href="#">3D LOOK</a>
+					</div>
+					<div class="successful-cases__block successful-cases__block-six">
+						<p class="successful-cases__block-text">Оскарження податкових повідомлень-рішень ДФС</p>
+						<a class="successful-cases__block-link"" href="#">adtelligent</a>
+					</div>
+					<div class="successful-cases__block successful-cases__block-seven">
+						<p class="successful-cases__block-text">Супровід проекту з кредитування агротрейдерів мальтійським банком</p>
+						<a class="successful-cases__block-link"" href="#">Clikky</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="publications-demo">
+			<div class="container">
+				<a class="publications-demo__link" href="./publications.html">ПУБЛіКФЦії</a>
+				<h2 class="publications-demo__title title">Рекомендуємо</h2>
+				<div class="publications-demo__blocks">
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-one">
+						<div class="publications-demo__block-top">
+							<h4 class="publications-demo__block-title">Валютний контроль помер, хай живе валютний контроль!</h4>
+							<p class="publications-demo__block-date">14 червня</p>
+						</div>
+						<div class="publications-demo__block-bottom">
+							<div class="publications-demo__block-top-line"></div>
+							<p class="publications-demo__block-text">Експерти проводять конференції, круглі столи та іншого штибу заходи на тему «лібералізація валютного законодавства». Юристи-експерти-новелісти стирають пальці об «ctrl+c/ctrl+v».</p>
+						</div>
+					</a>
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-two">
+						<img class="publications-demo__block-image" src="../img/publications-demo-img-one.png" alt="">
+						<div class="publications-demo__block-top">
+							<h4 class="publications-demo__block-title">Equity associate</h4>
+							<p class="publications-demo__block-date">22 квітня</p>
+						</div>
+						<div class="publications-demo__block-bottom">
+							<div class="publications-demo__block-top-line"></div>
+							<p class="publications-demo__block-text">На проектах я джун. При цьому я співвласник юридичної фірми. Як це відбулося. Перед вступом батьки мені казали, що якщо буду…</p>
+						</div>
+					</a>
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-three">
+						<img class="publications-demo__block-image" src="../img/publications-demo-img-two.png" alt="">
+						<div class="publications-demo__block-top">
+							<h4 class="publications-demo__block-title">Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR</h4>
+							<p class="publications-demo__block-date">29 вересня</p>
+						</div>
+						<div class="publications-demo__block-bottom">
+							<div class="publications-demo__block-top-line"></div>
+							<p class="publications-demo__block-text">І чому стягнення у 50 млн євро може стати доленосним прецедентом За матеріалами Mind.ua 21 січня Національна комісія із захисту даних.</p>
+						</div>
+					</a>
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-four">
+						<img class="publications-demo__block-image" src="../img/publications-demo-img-three.png" alt="">
+						<div class="publications-demo__block-top">
+							<h4 class="publications-demo__block-title">Заповіт міленіала</h4>
+							<p class="publications-demo__block-date">19 серпня</p>
+						</div>
+						<div class="publications-demo__block-bottom">
+							<div class="publications-demo__block-top-line"></div>
+							<p class="publications-demo__block-text">Що і як передаватимуть у спадщину сучасні влогери, опініон лідери і криптомільйонери Типовий спадок українського покоління Х виглядає так: квартира у…</p>
+						</div>
+					</a>
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-five">
+						<img class="publications-demo__block-image" src="../img/publications-demo-img-four.png" alt="">
+					</a>
+					<a href="./publications-details.html" class="publications-demo__block publications-demo__block-six">
+						<img class="publications-demo__block-image" src="../img/publications-demo-img-five.png" alt="">
+					</a>	
+				</div>
+				<a class="publications-demo__btn" href="#">Ще публікації</a>
+				<div class="publications-demo__blur"></div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__line">
+					<div class="footer__left">
+						<div class="footer__left-top">
+							<p class="footer__address">Одеса, Адміральський пр., 3</p>
+							<a class="footer__link-map" target="_blank" href="https://www.google.com/maps/place/%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+3,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.435032,30.7402159,17z/data=!4m5!3m4!1s0x40c63396894457b7:0x7f6c5236cbcb70c8!8m2!3d46.436045!4d30.7401301">Подивитися на мапі</a>
+						</div>
+						<div class="footer__left-bottom">
+							<a class="footer__fb" href="#">
+								<img src="./img/footer-fb.png" alt="">
+							</a>
+							<a class="footer__tel" href="tel:+380503901591">+38 (050) 390 15 91</a>
+							<a class="footer__mail" href="">contact@hlegals.net</a>
+						</div>
+					</div>
+					<div class="footer__right">
+						<p class="footer__copyring">© 2021 ТОВ Юридична компанія «HLEGALS»</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
